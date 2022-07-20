@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateOrders">
+
+    <!--Edittext for getting course Name-->
+    <EditText
+        android:id="@+id/dNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Inputkan nama lengkap"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <!--Edittext for getting course Duration-->
+    <EditText
+        android:id="@+id/dAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Inputkan alamat rumah"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <!--Edittext for getting course Description-->
+    <EditText
+        android:id="@+id/dberat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Inputkan berat cucian"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/dharga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="'10000', '7000', '15000'"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/dpaket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="'Takehome', 'Reguler', 'Express'"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/dstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="input 'OnOrder'"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!--Button for updating your course to Firebase-->
+        <Button
+            android:id="@+id/idBtnUpdateCourse"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="Update Order"
+            android:textAllCaps="false" />
+
+        <!--Button for deleting our course-->
+        <Button
+            android:id="@+id/idBtnDeleteCourse"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="Delete Order"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderProsesAdmin"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/Akembali"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:background="@drawable/ic_baseline_arrow_back_24" />/>
+
+
+    <Button
+        android:id="@+id/AidBtnViewCourses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Lihat List Order"
+        android:textAllCaps="false" />
+
+</LinearLayout>
